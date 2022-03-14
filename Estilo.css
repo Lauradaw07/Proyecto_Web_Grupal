@@ -5,25 +5,21 @@
     height: 40px;
 }
 
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu li {
-    float: left;
     padding: 0px;
     line-height: 40px;
+    list-style: none;
+    margin: 20px;
 }
 
-.menu li a {
-    display: block;
-    padding: 0px 15px;
-    text-decoration: none;
-}
 
-.menu li ul {
-    display: none;
-    list-style-type: none;
-    width: 90px;
-    padding: 0px;
-    margin: 0px;
-}
 
-.menu li:hover ul{display: block;}
 
