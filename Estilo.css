@@ -1,30 +1,63 @@
+* {
+    margin: 0;
+}
+
+
+/*----------CABECERA----------*/
 .header {
-    clear: both;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/*Título y sign in*/
+.intro {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 8px;
 }
 
 .titulo {
-    float: left;
-    margin-left: 50%;
     font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+}
+
+.titulo a {
+    text-decoration: none;
+    color: black;
 }
 
 .login {
-    float: left;
-    margin-left: 760px;
-    margin-top: 10px;
+    grid-column: 3 / -1;
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+}
+
+.login img {
+    margin: 0px 30px;
 }
 
 .login a {
     text-decoration: none;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold 0.5;
 }
 
 .menu {
-    clear: both;
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     height: 40px;
+    border-top: #707a7f67 solid 1px;
+    border-bottom: #707a7f67 solid 1px;
 }
 
 .menu ul {
@@ -41,7 +74,7 @@
     padding: 0px;
     line-height: 40px;
     list-style: none;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 

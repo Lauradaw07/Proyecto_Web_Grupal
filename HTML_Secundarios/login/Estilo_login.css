@@ -2,45 +2,62 @@
     margin: 0;
 }
 
+/* -------Container------- */
+.container {
+    display: grid;
+    grid-template-rows: 150px auto 300px;
+    height: 100vh; /* viewport height => esta propeidad obtiene todo el alto de la pantalla independientemente del dispositivo donde se abra la página*/
+}
+
+/*----------CABECERA----------*/
 .header {
+    grid-row: 1 / 2;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: xxx-large;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold 0.2;
+    font-weight: 500;
 }
 
+/*----------CUERPO----------*/
 .main {
+    grid-row: 2 / 3;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
 }
 
+/*Primer texto*/
 .main .caja1 {
-    font-size: xxx-large;
-    margin: auto;
+    font-size: x-large;
+    margin: -50px auto;
     font-family: 'Questrial', sans-serif;
-    font-weight: bold;
+    width: 300px;
+    text-align: center;
 }
 
+/*Segundo texto*/
 .main .caja2 {
     font-family: 'Cormorant Garamond', serif;
     font-size: x-large;
-    margin: auto;
+    margin: 60px auto;
 }
 
+/*input y button*/
 .main .caja3 {
     font-size: medium;
-    margin: auto;
-    margin-top: 140px;
+    margin: 20px auto;
+    width: 390px;
+    height: 50px;
 }
 
+/*Texto Email*/
 .main #elemento1 {
     margin-bottom: 7px;
     font-family: 'Questrial', sans-serif;
 }
 
+/*input Email*/
 .main #elemento2 {
     width: 383px;
     height: 43.95px;
@@ -48,36 +65,36 @@
     font-weight: bold;
 }
 
-.main .caja3 {
-    margin: 120px auto;
-    width: 390px;
-    height: 50px;
-}
-
-.main button {
+/*Botón siguiente*/
+.main #elemento3 {
     width: 390px;
     height: 50px;
     background-color: #181A1C;
     color: white;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
+/*----------PIE---------*/
 .footer {
-    background-color: #181A1C;
+    grid-row: 3 / -1;
+    background-color: #181a1c;
     width: 100%;
-    height: 240px;
-    margin-top: 50px;
+    height: 100%;
+    margin-top: 80px;
     color: white;
     display: flex;
     flex-direction: column;
 }
 
+/*Menú de enlaces*/
 .footer #elemento1 {
     display: flex;
     justify-items: center;
     margin: 0px auto;
 }
 
+
+/*Enlaces*/
 .footer li {
     list-style-type: none;
     margin: 10px -90px;
@@ -85,33 +102,35 @@
     font-family: 'Questrial', sans-serif;
 }
 
+/*Texto política*/
 .footer p {
     margin: 7px 100px;
 }
 
 .footer hr {
-    background-color:#000000 !important;
+    background-color:#000000;
     height: 1px;
     border-top: none;
     margin: 30px 120px;
     opacity: 0.10;
 }
 
+/*Botón preferencias*/
 .footer #elemento2 {
     margin: 10px auto;
     width: 170px;
     height: 40px;
     background-color: #181A1C;
-    color: grey;
-    border: 1px solid grey;
+    color: #707a7f;
+    border: 1px solid #707a7f;
 }
 
 .footer nav {
     margin: 10px auto;
-    color: gray;
+    color: #707a7f;
     font-size: small;
 }
 
 .footer nav a {
-    color: gray;
+    color: #707a7f;
 }
