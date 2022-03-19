@@ -28,7 +28,7 @@
 }
 
 /*Primer texto*/
-.main .caja1 {
+.main .texto1 {
     font-size: x-large;
     margin: -50px auto;
     font-family: 'Questrial', sans-serif;
@@ -37,7 +37,7 @@
 }
 
 /*Segundo texto*/
-.main .caja2 {
+.main .texto2 {
     font-family: 'Cormorant Garamond', serif;
     font-size: x-large;
     margin: 60px auto;
@@ -48,46 +48,46 @@
     font-size: medium;
     margin: 20px auto;
     width: 390px;
-    height: 50px;
 }
 
 /*Texto Email*/
-.main #elemento1 {
+.main #textoEmail {
     margin-bottom: 7px;
     font-family: 'Questrial', sans-serif;
+    font-size: small;
 }
 
 /*input Email*/
-.main #elemento2 {
+.main #email {
     width: 383px;
-    height: 43.95px;
+    height: 40px;
     margin: auto;
-    font-weight: bold;
+    outline: none;
 }
 
 /*Botón siguiente*/
-.main #elemento3 {
+.main #botonSiguiente {
     width: 390px;
     height: 50px;
     background-color: #181A1C;
     color: white;
-    margin: 15px auto;
+    margin: 10px auto;
 }
 
 /*----------PIE---------*/
 .footer {
     grid-row: 3 / -1;
     background-color: #181a1c;
-    width: 100%;
-    height: 100%;
-    margin-top: 80px;
+    width: auto;
+    height: auto;
+    margin-top: 75px;
     color: white;
     display: flex;
     flex-direction: column;
 }
 
 /*Menú de enlaces*/
-.footer #elemento1 {
+.footer #menu {
     display: flex;
     justify-items: center;
     margin: 0px auto;
@@ -116,7 +116,7 @@
 }
 
 /*Botón preferencias*/
-.footer #elemento2 {
+.footer #botonConfigurar {
     margin: 10px auto;
     width: 170px;
     height: 40px;
@@ -126,7 +126,10 @@
 }
 
 .footer nav {
-    margin: 10px auto;
+    /*margin: 10px auto;
+    margin-top: 10px;*/
+    margin: auto;
+    justify-content: center;
     color: #707a7f;
     font-size: small;
 }

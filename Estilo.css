@@ -77,6 +77,120 @@
     margin: 0px 10px;
 }
 
+.ultimasNoticias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    padding: 8px;
+    margin-top: 20px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.ultimasNoticias .titulo {
+    grid-row: 1;
+    grid-column: 1/ -1;
+    justify-self: center;
+    height: 25px;
+    font-family: 'Questrial', sans-serif;
+    font-size: small;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #707a7f67;
+    border-bottom: 1px solid #707a7f67;
+}
+
+.ultimasNoticias .noticia1 {
+    width: 260px;
+    height: 380px;
+    grid-row: 2 / 3;
+    grid-column: 1/ 2;
+    justify-self: end;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ultimasNoticias .noticia2 {
+    width: 552px;
+    height: 855px;
+    grid-row: 2 / -1;
+    grid-column: 2 / 4;
+    justify-self: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ultimasNoticias .noticia3 {
+    width: 260px;
+    height: 380px;
+    grid-row: 2 / 3;
+    grid-column: 4 / -1;
+    justify-self: start;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ultimasNoticias .noticia4 {
+    width: 260px;
+    height: 380px;
+    grid-row: 3 / -1;
+    grid-column: 1 / 2;
+    justify-self: end;
+    text-align: center;
+}
+
+.ultimasNoticias .noticia5 {
+    width: 260px;
+    height: 380px;
+    grid-row: 3 / -1;
+    grid-column: 4 / -1;
+    justify-self: start;
+    text-align: center;
+}
+
+/*Imagenes*/
+.ultimasNoticias a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold 0.3;
+}
+.ultimasNoticias a:hover {text-decoration: underline;}
+
+.ultimasNoticias #enlaceNoticia {
+    font-size: large;
+    font-weight: bold;
+}
+
+.noticia1 img {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 10px;
+}
+
+.noticia2 img{
+    width: 552px; 
+    height: 735px;
+    margin-bottom: 10px;
+}
+
+.noticia3 img {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 10px;
+}
+
+.noticia4 img {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+.noticia5 img {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
 
 
 
