@@ -156,7 +156,7 @@
     margin-top: 30px;
     text-align: center;
 }
-
+/*Noticia 4 (inferior-izquierda)*/
 .ultimasNoticias .noticia4_ultimasNoticias {
     width: 260px;
     height: 380px;
@@ -166,6 +166,7 @@
     text-align: center;
 }
 
+/*Noticia 5 (inferior-derecha)*/
 .ultimasNoticias .noticia5_ultimasNoticias {
     width: 260px;
     height: 380px;
