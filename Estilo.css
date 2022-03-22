@@ -2,6 +2,19 @@
     margin: 0;
 }
 
+/*Títulos*/
+#titulo {
+    text-align: center;
+    height: 25px;
+    font-family: 'Questrial', sans-serif;
+    font-size: small;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #707a7f23;
+    border-bottom: 1px solid #707a7f23;
+    padding: 15px 0px;
+}
+
 
 /*----------CABECERA----------*/
 .header {
@@ -49,6 +62,7 @@
     font-weight: bold 0.5;
 }
 
+/*----------MENU----------*/
 .menu {
     display: flex;
     flex-direction: column;
@@ -74,6 +88,7 @@
     margin: 0px;
 }
 
+/*Columnas*/
 .menu li {
     padding: 0px;
     line-height: 40px;
@@ -81,6 +96,9 @@
     margin: 0px 10px;
 }
 
+/*----------ULTIMAS NOTICIAS----------*/
+
+/*Caja general*/
 .ultimasNoticias {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -90,10 +108,12 @@
     font-family: 'Questrial', sans-serif;
 }
 
-.ultimasNoticias .titulo {
+/*Titulo*/
+.ultimasNoticias #titulo {
     grid-row: 1;
     grid-column: 1/ -1;
     justify-self: center;
+    text-align: center;
     height: 25px;
     font-family: 'Questrial', sans-serif;
     font-size: small;
@@ -104,7 +124,8 @@
     padding: 15px 0px;
 }
 
-.ultimasNoticias .noticia1 {
+/*Noticia 1 (superior-izquierda)*/
+.ultimasNoticias .noticia1_ultimasNoticias {
     width: 260px;
     height: 380px;
     grid-row: 2 / 3;
@@ -114,7 +135,8 @@
     text-align: center;
 }
 
-.ultimasNoticias .noticia2 {
+/*Noticia 2 (central)*/
+.ultimasNoticias .noticia2_ultimasNoticias {
     width: 552px;
     height: 855px;
     grid-row: 2 / -1;
@@ -124,7 +146,8 @@
     text-align: center;
 }
 
-.ultimasNoticias .noticia3 {
+/*Noticia 3 (superior-derecha)*/
+.ultimasNoticias .noticia3_ultimasNoticias {
     width: 260px;
     height: 380px;
     grid-row: 2 / 3;
@@ -134,7 +157,7 @@
     text-align: center;
 }
 
-.ultimasNoticias .noticia4 {
+.ultimasNoticias .noticia4_ultimasNoticias {
     width: 260px;
     height: 380px;
     grid-row: 3 / -1;
@@ -143,7 +166,7 @@
     text-align: center;
 }
 
-.ultimasNoticias .noticia5 {
+.ultimasNoticias .noticia5_ultimasNoticias {
     width: 260px;
     height: 380px;
     grid-row: 3 / -1;
@@ -167,31 +190,31 @@
     font-weight: bold;
 }
 
-.noticia1 img {
+.noticia1_ultimasNoticias img {
     width: 260px;
     height: 260px;
     margin-bottom: 10px;
 }
 
-.noticia2 img{
+.noticia2_ultimasNoticias img{
     width: 552px; 
     height: 735px;
     margin-bottom: 10px;
 }
 
-.noticia3 img {
+.noticia3_ultimasNoticias img {
     width: 260px;
     height: 260px;
     margin-bottom: 10px;
 }
 
-.noticia4 img {
+.noticia4_ultimasNoticias img {
     width: 260px;
     height: 260px;
     margin-bottom: 30px;
 }
 
-.noticia5 img {
+.noticia5_ultimasNoticias img {
     width: 260px;
     height: 260px;
     margin-bottom: 30px;
