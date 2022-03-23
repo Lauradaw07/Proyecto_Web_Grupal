@@ -62,6 +62,7 @@
     font-weight: bold 0.5;
 }
 
+
 /*----------MENU----------*/
 .menu {
     display: flex;
@@ -96,6 +97,7 @@
     margin: 0px 10px;
 }
 
+
 /*----------ULTIMAS NOTICIAS----------*/
 
 /*Caja general*/
@@ -103,6 +105,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    justify-self: center;
     padding: 8px;
     margin-top: 20px;
     font-family: 'Questrial', sans-serif;
@@ -126,8 +130,8 @@
 
 /*Noticia 1 (superior-izquierda)*/
 .ultimasNoticias .noticia1_ultimasNoticias {
-    width: 260px;
-    height: 380px;
+    width: 344px;
+    height: 500px;
     grid-row: 2 / 3;
     grid-column: 1/ 2;
     justify-self: end;
@@ -137,8 +141,8 @@
 
 /*Noticia 2 (central)*/
 .ultimasNoticias .noticia2_ultimasNoticias {
-    width: 552px;
-    height: 855px;
+    width: 720px;
+    height: 1080px;
     grid-row: 2 / -1;
     grid-column: 2 / 4;
     justify-self: center;
@@ -148,8 +152,8 @@
 
 /*Noticia 3 (superior-derecha)*/
 .ultimasNoticias .noticia3_ultimasNoticias {
-    width: 260px;
-    height: 380px;
+    width: 344px;
+    height: 500px;
     grid-row: 2 / 3;
     grid-column: 4 / -1;
     justify-self: start;
@@ -158,8 +162,8 @@
 }
 /*Noticia 4 (inferior-izquierda)*/
 .ultimasNoticias .noticia4_ultimasNoticias {
-    width: 260px;
-    height: 380px;
+    width: 344px;
+    height: 500px;
     grid-row: 3 / -1;
     grid-column: 1 / 2;
     justify-self: end;
@@ -168,8 +172,8 @@
 
 /*Noticia 5 (inferior-derecha)*/
 .ultimasNoticias .noticia5_ultimasNoticias {
-    width: 260px;
-    height: 380px;
+    width: 344px;
+    height: 500px;
     grid-row: 3 / -1;
     grid-column: 4 / -1;
     justify-self: start;
@@ -181,51 +185,122 @@
     text-align: center;
     color: black;
     text-decoration: none;
-    font-weight: bold 0.3;
+    font-weight: bold;
     line-height: 1.3;
 }
 .ultimasNoticias a:hover {text-decoration: underline;}
 
-.ultimasNoticias #enlaceNoticia {
+.ultimasNoticias #enlace2UltimasNoticias {
     font-size: large;
     font-weight: bold;
 }
 
 /*Noticia 1 - ultimasNoticias*/
 .noticia1_ultimasNoticias img {
-    width: 260px;
-    height: 260px;
+    width: 344px;
+    height: 344px;
     margin-bottom: 10px;
 }
 
 /*Noticia 2 - ultimasNoticias*/
 .noticia2_ultimasNoticias img{
-    width: 552px; 
-    height: 735px;
+    width: 720px; 
+    height: 960px;
     margin-bottom: 10px;
 }
 
 /*Noticia 3 - ultimasNoticias*/
 .noticia3_ultimasNoticias img {
-    width: 260px;
-    height: 260px;
+    width: 344px;
+    height: 344px;
     margin-bottom: 10px;
 }
 
 /*Noticia 4 - ultimasNoticias*/
 .noticia4_ultimasNoticias img {
-    width: 260px;
-    height: 260px;
-    margin-bottom: 30px;
+    width: 344px;
+    height: 344px;
+    margin-bottom: 10px;
 }
 
 /*Noticia 5 - ultimasNoticias*/
 .noticia5_ultimasNoticias img {
-    width: 260px;
-    height: 260px;
-    margin-bottom: 30px;
+    width: 344px;
+    height: 344px;
+    margin-bottom: 10px;
 }
 
+
+/*----------NO TE PUEDES PERDER----------*/
+
+/*Caja general*/
+.noTePuedesPerder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    height: auto;
+    font-family: 'Questrial', sans-serif;
+}
+
+.noTePuedesPerder img {
+    width: 135px;
+    height: 135px;
+}
+
+.noTePuedesPerder a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.3;
+    line-height: 1.3;
+}
+.noTePuedesPerder a:hover{text-decoration: underline;}
+
+.noTePuedesPerder #enlace2NoTePuedesPerder {
+    font-size: large;
+    font-weight: bold;
+}
+
+.noTePuedesPerder #titulo {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+}
+
+.noTePuedesPerder #contenedor_noticiasNoTePuedesPerder {
+    grid-row: 2 / -1;
+    grid-column: 1 / -1;
+    grid-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 135px;
+    margin-bottom: 50px;
+}
+
+.noTePuedesPerder .noticia1_noTePuedesPerder {
+    display: flex;
+    width: 430px;
+    height: 135px;
+    text-align: center;
+}
+
+.noticia2_noTePuedesPerder {
+    display: flex;
+    width: 430px;
+    height: 135px;
+    text-align: center;
+
+}
+
+.noticia3_noTePuedesPerder {
+    display: flex;
+    width: 430px;
+    height: 135px;
+    text-align: center;
+}
 
 
 
