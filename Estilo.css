@@ -110,7 +110,6 @@ a:hover{text-decoration: underline;}
 
 
 /*------------------------------ULTIMAS NOTICIAS------------------------------*/
-
 /*Caja general*/
 #ultimasNoticias {
     display: grid;
@@ -197,7 +196,6 @@ a:hover{text-decoration: underline;}
 }
 
 /*------------------------------NO TE PUEDES PERDER------------------------------*/
-
 /*Caja general*/
 #noTePuedesPerder {
     display: grid;
@@ -244,13 +242,12 @@ a:hover{text-decoration: underline;}
 }
 
 /*Enlaces*/
-#enlacePrincipal_noTePuedesPerder {
+.enlacePrincipal_noTePuedesPerder {
     font-size: large;
     font-weight: bold;
 }
 
 /*------------------------------TENDENCIAS MANICURA------------------------------*/
-
 /*Caja general*/
 #tendenciasManicura {
     display: grid;
