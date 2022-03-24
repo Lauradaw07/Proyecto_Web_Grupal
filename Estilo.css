@@ -1,5 +1,14 @@
 * {
     margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    display: block;
+    width: 80%;
+    margin: auto;
+    overflow: unset;
+    align-self: center;
 }
 
 /*Títulos*/
@@ -118,7 +127,8 @@ a:hover{text-decoration: underline;}
     grid-gap: 20px;
     justify-self: center;
     padding: 8px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -205,6 +215,7 @@ a:hover{text-decoration: underline;}
     height: auto;
     font-family: 'Questrial', sans-serif;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 /*Contenedor noticias*/
@@ -264,7 +275,6 @@ a:hover{text-decoration: underline;}
 #tendenciasManicura .titulo {
     grid-row: 1;
     grid-column: 1 / -1;
-    text-align: center;
 }
 
 /*Noticias*/
@@ -275,7 +285,7 @@ a:hover{text-decoration: underline;}
     text-align: center;
 }
 
-/*Noticia 1 (extremo-izquierda)*/
+/*Noticia 1 (extremo-derecha)*/
 #noticia1_tendenciasManicura {
     grid-row: 2 / -1;
     grid-column: 1 / 2;
@@ -285,7 +295,7 @@ a:hover{text-decoration: underline;}
 /*Noticia 2 (mitad-izquierda)*/
 #noticia2_tendenciasManicura {
     grid-row: 2 / -1;
-    grid-column: 2/ 3;
+    grid-column: 2 / 3;
     justify-self: center;
 }
 
@@ -303,11 +313,10 @@ a:hover{text-decoration: underline;}
     justify-self: start;
 }
 
-/*Imágenes*/
+/*Imagenes*/
 .imagen_tendenciasManicura {
     width: 344px;
     height: 344px;
-    margin-bottom: 10px;
 }
 
 /*Enlaces*/
@@ -334,7 +343,6 @@ a:hover{text-decoration: underline;}
 #tendenciasOjos .titulo {
     grid-row: 1;
     grid-column: 1 / -1;
-    text-align: center;
 }
 
 /*Noticias*/
