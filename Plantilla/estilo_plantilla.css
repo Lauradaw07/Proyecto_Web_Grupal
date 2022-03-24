@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+/*Títulos*/
+#titulo {
+    text-align: center;
+    height: 25px;
+    font-family: 'Questrial', sans-serif;
+    font-size: small;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #707a7f23;
+    border-bottom: 1px solid #707a7f23;
+    padding: 15px 0px;
+}
+
+
+/*----------CABECERA----------*/
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+/*Título y sign in*/
+.intro {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 8px;
+}
+
+.titulo {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    grid-column: 2/3;
+}
+
+.titulo a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    grid-column: 3 / -1;
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+}
+
+.login img {
+    margin: 0px 30px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold 0.5;
+}
+
+/*----------MENU----------*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    border-top: #707a7f23 solid 1px;
+    border-bottom: #707a7f23 solid 1px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    padding: 5px 0px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+}
+
+/*Columnas*/
+.menu li {
+    padding: 0px;
+    line-height: 40px;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+/*CuerpoPlantilla*/
+.plantilla {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+/*TituloPlantila*/
+.tituloPlantilla {
+    font-family: 'Questrial', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: -0.23px;
+    line-height: 48px;
+    text-decoration: none solid black;
+    text-align: left;
+    word-spacing: 0px;
+    color: black;
+    height: 96px;
+    width: 1012.16px;
+    margin-top: 16px;
+    display: block;
+}
+
+.plantilla .linea {
+    height: 0px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.plantilla .texto {
+    font-family: Garamond, serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none solid black;
+    word-spacing: 0px;
+    color: black;
+    height: 288px;
+    width: 582px;
+    margin-left: 20px;
+}
+
+.plantilla .inicioSesion {
+    
+}
