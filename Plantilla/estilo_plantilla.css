@@ -139,5 +139,176 @@
 }
 
 .plantilla .inicioSesion {
-    
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: 0px;
+    height: 414px;
+    width: 595px;
+    padding: 64px 32px;
 }
+
+.plantilla .inicioSesion #titulo {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    word-spacing: 0px;
+    height: 96px;
+    width: 530px;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+.plantilla .inicioSesion #debajoTitulo {
+    font-size: 16px;
+    letter-spacing: -0.1px;
+    line-height: 22px;
+    text-align: center;
+    word-spacing: 0px;
+    height: 22px;
+    width: 530px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.plantilla .inicioSesion input[type=email] {
+    font-size: 12px;
+    line-height: 16px;
+    word-spacing: 0px;
+    height: 48px;
+    width: 370.5px;
+    margin-top: 8px;
+    padding: 8px 12px;
+}
+
+.plantilla .inicioSesion input[type=submit] {
+    font-size: 12px;
+    line-height: 16px;
+    word-spacing: 0px;
+    height: 70px;
+    width: 170px;
+    border: 1px solid #E0E0E0;
+    margin-top: 0px;
+    margin-left: -3px;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+}
+
+.plantilla .inicioSesion #debajoInput {
+    font-size: 14px;
+    line-height: 16px;
+    word-spacing: 0px;
+    color: black;
+    height: 16px;
+    width: 570px;
+    margin: 12px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    background-color: black;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+.footer .redes #titulo {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 0px;
+    color: #B0B0B0;
+    height: 32px;
+    width: 105px;
+    margin: 12px 0px;
+    border: 1px solid black;
+}
+
+.footer .redes #debajoTitulo {
+    border: 1px solid black;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    word-spacing: 0px;
+    color: white;
+    height: 30px;
+    width: 434px;
+}
+
+.footer .redes #redesSociales {
+    line-height: 32px;
+    text-align: left;
+    height: 48px;
+    width: 626px;
+    margin-top: 30px;
+    list-style-type: none;
+    border: 1px solid white;
+    z-index: 1;
+    color: white;
+}
+
+.footer .redes #redesSociales li {
+    float: left;
+    margin-left: 40px;
+}
+
+.footer #texto1 {
+    font-size: 12px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 0px;
+    color: black;
+    height: 165px;
+    width: 154px;
+    border: 1px solid black;
+    margin-left: 750px;
+    margin-top: -165px;
+    line-height: 27px;
+    color: white;
+}
+
+.footer #texto2 {
+    font-size: 12px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 0px;
+    color: black;
+    height: 185px;
+    width: 154px;
+    border: 1px solid black;
+    margin-left: 950px;
+    margin-top: -165px;
+    line-height: 24px;
+    color: white;
+}
+
+.footer #linea {
+    border: 1px solid #636363;
+    height: 0px;
+    width: 1250px;
+    margin-top: 40px;
+}
+
+.footer #texto3 {
+    letter-spacing: 1px;
+    text-align: left;
+    height: 22px;
+    width: 682px;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer #acuerdos {
+    font-size: 13.3px;
+    letter-spacing: -0.2px;
+    line-height: 16px;
+    text-align: left;
+    color: #636363;
+    height: 48px;
+    width: 1221px;
+    margin-top: 40px;
+}
+
+
