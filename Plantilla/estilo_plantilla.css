@@ -133,10 +133,271 @@
     text-decoration: none solid black;
     word-spacing: 0px;
     color: black;
-    height: 288px;
-    width: 582px;
+    height: 310px;
+    width: 682px;
     margin-left: 20px;
+    margin-top: 50px;
 }
+
+.plantilla img {
+    margin-top: 850px;
+    margin-left: 50px;
+}
+
+.plantilla #imagen2KikoMilano {
+    margin-top: 170px;
+    margin-left: 50px;
+}
+
+.plantilla #foto1Tiktok {
+    margin-top: 60px;
+}
+
+.plantilla #linea1Tiktok {
+    margin-top: 95px;
+}
+
+.plantilla #texto1Tiktok {
+    margin-bottom: 1000px;
+}
+
+.plantilla #texto2Tiktok {
+    margin-bottom: 250px;
+}
+
+.plantilla #linea1PremiosGoya {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1PremiosGoya {
+    margin-top: 60px;
+}
+
+.plantilla #imagen2PremiosGoya {
+    margin-top: 130px;
+}
+
+.plantilla #imagen3PremiosGoya {
+    margin-top: 300px;
+}
+
+.plantilla #imagen4PremiosGoya {
+    margin-top: 0px;
+}
+
+.plantilla #imagen5PremiosGoya {
+    margin-top: 0px;
+}
+
+.plantilla #imagen6PremiosGoya {
+    margin-top: 80px;
+}
+
+.plantilla #imagen7PremiosGoya {
+    margin-top: 40px;
+}
+
+.plantilla #imagen1No1 {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2No1 {
+    margin-top: 0px;
+}
+
+.plantilla #imagen3No1 {
+    margin-top: 0px;
+}
+
+.plantilla #imagen4No1 {
+    margin-top: 300px;
+}
+
+.plantilla #imagen5No1 {
+    margin-top: 0px;
+}
+
+.plantilla #imagen6No1 {
+    margin-top: 0px;
+    margin-bottom: -350px;
+}
+
+.plantilla #imagen1Maestro {
+    margin-top: 40px;
+}
+
+.plantilla #texto1Maestro {
+    margin-bottom: 1200px;
+}
+
+.plantilla #texto1MejorLimpiador {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1MejorLimpiador {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2MejorLimpiador {
+    margin-top: 750px;
+}
+
+.plantilla #imagen3MejorLimpiador {
+    margin-top: 450px;
+}
+
+.plantilla #linea1Secreto {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Secreto {
+    margin-top: 50px;
+}
+
+.plantilla #texto1Secreto {
+    margin-bottom: 1400px;
+}
+
+.plantilla #linea1Cosmeticos {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Cosmeticos {
+    margin-top: 50px;
+}
+
+.plantilla #linea1Catwoman {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Catwoman {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Catwoman {
+    margin-top: 100px;
+}
+
+.plantilla #imagen3Catwoman {
+    margin-top: 100px;
+}
+
+.plantilla #imagen4Catwoman {
+    margin-top: 0px;
+}
+
+.plantilla #imagen5Catwoman {
+    margin-top: 0px;
+}
+
+.plantilla #imagen6Catwoman {
+    margin-top: -70px;
+}
+
+.plantilla #linea1Emma {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Emma {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Emma {
+    margin-top: 50px;
+}
+
+.plantilla #imagen3Emma {
+    margin-top: -60px;
+}
+
+.plantilla #imagen4Emma {
+    margin-top: -60px;
+}
+
+.plantilla #imagen5Emma {
+    margin-top: -60px;
+}
+
+.plantilla #texto1Emma {
+    margin-bottom: -150px;
+}
+
+.plantilla #linea1Coats {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Coats {
+    margin-top: 200px;
+}
+
+.plantilla #imagen2Coats {
+    margin-top: -50px;
+}
+
+.plantilla #imagen3Coats {
+    margin-top: 0px;
+}
+
+.plantilla #texto1Coats {
+    margin-bottom: -150px;
+}
+
+.plantilla #linea1Rojo {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Rojo {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Rojo {
+    margin-top: 230px;
+}
+
+.plantilla #imagen3Rojo {
+    margin-top: 900px;
+}
+
+.plantilla #linea1Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #imagen1Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #imagen2Manicura {
+    margin-top: 520px;
+}
+
+.plantilla #imagen3Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #texto1Manicura {
+    margin-top: -45px;
+}
+
+.plantilla #imagen4Manicura {
+    margin-top: 0px;
+}
+
+.plantilla #imagen5Manicura {
+    margin-top: -40px;
+}
+
+.plantilla #imagen6Manicura {
+    margin-top: 50px;
+}
+
+.plantilla #imagen7Manicura {
+    margin-top: -40px;
+}
+
+.plantilla #imagen8Manicura {
+    margin-top: -40px;
+}
+
 
 .plantilla .inicioSesion {
     font-size: 20px;
@@ -215,6 +476,7 @@
 }
 
 .footer .redes #titulo {
+    font-family: 'Questrial', sans-serif;
     font-size: 20px;
     line-height: 32px;
     text-align: left;
@@ -244,17 +506,17 @@
     width: 626px;
     margin-top: 30px;
     list-style-type: none;
-    border: 1px solid white;
     z-index: 1;
     color: white;
 }
 
 .footer .redes #redesSociales li {
     float: left;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 .footer #texto1 {
+    font-family: 'Questrial', sans-serif;
     font-size: 12px;
     line-height: 32px;
     text-align: left;
@@ -270,6 +532,7 @@
 }
 
 .footer #texto2 {
+    font-family: 'Questrial', sans-serif;
     font-size: 12px;
     line-height: 32px;
     text-align: left;
@@ -292,6 +555,7 @@
 }
 
 .footer #texto3 {
+    font-family: 'Questrial', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     height: 22px;
@@ -310,5 +574,3 @@
     width: 1221px;
     margin-top: 40px;
 }
-
-
