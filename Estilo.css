@@ -14,14 +14,16 @@
 /*Títulos*/
 .titulo {
     text-align: center;
-    height: 25px;
+    height: 30px;
     font-family: 'Questrial', sans-serif;
     font-size: small;
     width: 100%;
-    padding: 10px;
     border-top: 1px solid #707a7f23;
     border-bottom: 1px solid #707a7f23;
-    padding: 15px 0px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Categorías*/
@@ -118,35 +120,35 @@ a:hover{text-decoration: underline;}
 }
 
 
-/*------------------------------ULTIMAS NOTICIAS------------------------------*/
+/*------------------------------NOTICIAS DE HOY------------------------------*/
 /*Caja general*/
-#ultimasNoticias {
+#noticiasDeHoy {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-gap: 20px;
     justify-self: center;
     padding: 8px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'Questrial', sans-serif;
 }
 
 /*Titulo*/
-#ultimasNoticias .titulo {
+#noticiasDeHoy .titulo {
     grid-row: 1;
     grid-column: 1/ -1;
 }
 
 /*Noticias*/
-#noticia1_ultimasNoticias, #noticia3_ultimasNoticias, #noticia4_ultimasNoticias, #noticia5_ultimasNoticias {
+#noticia1_noticiasDeHoy, #noticia3_noticiasDeHoy, #noticia4_noticiasDeHoy, #noticia5_noticiasDeHoy {
     width: 344px;
     height: auto;
     text-align: center;
 }
 
 /*Noticia 1 (superior-izquierda)*/
-#noticia1_ultimasNoticias {
+#noticia1_noticiasDeHoy {
     grid-row: 2 / 3;
     grid-column: 1/ 2;
     justify-self: end;
@@ -154,7 +156,7 @@ a:hover{text-decoration: underline;}
 }
 
 /*Noticia 2 (central)*/
-#noticia2_ultimasNoticias {
+#noticia2_noticiasDeHoy {
     grid-row: 2 / -1;
     grid-column: 2 / 4;
     width: 720px;
@@ -164,7 +166,7 @@ a:hover{text-decoration: underline;}
 }
 
 /*Noticia 3 (superior-derecha)*/
-#noticia3_ultimasNoticias {
+#noticia3_noticiasDeHoy {
     grid-row: 2 / 3;
     grid-column: 4 / -1;
     justify-self: start;
@@ -172,34 +174,34 @@ a:hover{text-decoration: underline;}
 }
 
 /*Noticia 4 (inferior-izquierda)*/
-#noticia4_ultimasNoticias {
+#noticia4_noticiasDeHoy {
     grid-row: 3 / -1;
     grid-column: 1 / 2;
     justify-self: end;
 }
 
 /*Noticia 5 (inferior-derecha)*/
-#noticia5_ultimasNoticias {
+#noticia5_noticiasDeHoy {
     grid-row: 3 / -1;
     grid-column: 4 / -1;
     justify-self: start;
 }
 
 /*Imágenes*/
-.imagenLateral_ultimasNoticias {
+.imagenLateral_noticiasDeHoy {
     width: 344px;
     height: 344px;
     margin-bottom: 10px;
 }
 
-#imagenCentral_ultimasNoticias {
+#imagenCentral_noticiasDeHoy {
     width: 720px; 
     height: 960px;
     margin-bottom: 10px;
 }
 
 /*Enlaces*/
-.enlacePrincipal_ultimasNoticias {
+.enlacePrincipal_noticiasDeHoy {
     font-size: large;
     font-weight: bold;
     line-height: 1.3;
@@ -268,6 +270,7 @@ a:hover{text-decoration: underline;}
     justify-self: center;
     padding: 8px;
     margin-top: 30px;
+    margin-bottom: 50px;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -317,6 +320,7 @@ a:hover{text-decoration: underline;}
 .imagen_tendenciasManicura {
     width: 344px;
     height: 344px;
+    margin-bottom: 10px;
 }
 
 /*Enlaces*/
@@ -336,6 +340,7 @@ a:hover{text-decoration: underline;}
     justify-self: center;
     padding: 8px;
     margin-top: 30px;
+    margin-bottom: 50px;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -385,6 +390,7 @@ a:hover{text-decoration: underline;}
 .imagen_tendenciasOjos {
     width: 344px;
     height: 344px;
+    margin-bottom: 10px;
 }
 
 /*Enlaces*/
@@ -392,3 +398,74 @@ a:hover{text-decoration: underline;}
     font-size: large;
     font-weight: bold;
 }
+
+/* Estilos general slider */
+
+.slider_contenedor {
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.slider_item {
+    width: 412px;
+    height: auto;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.slider_item::before {
+    display: block;
+    text-align: center;
+    content: "";
+    line-height: 200px;
+}
+
+.slider_imagen {
+    width: 412px;
+    height: 232px;
+    margin-bottom: 10px;
+}
+
+.slider_enlace {
+    font-size: large;
+    font-weight: bold;
+}
+
+/*------------------------------ÚLTIMAS NOTICIAS------------------------------*/
+/*Caja general*/
+#ultimasNoticias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(13, auto);
+    grid-gap: 20px;
+    justify-self: center;
+    padding: 8px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Questrial', sans-serif;
+}
+
+/*Título*/
+#ultimasNoticias .titulo {
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+
+#noticia1_ultimasNoticias {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.imagen_ultimasNoticias {
+    width: 325px;
+    height: 250px;
+}
+
+.enlacePrincipal_ultimasNoticias {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+

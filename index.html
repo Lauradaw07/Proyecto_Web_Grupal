@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!-- Slider style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <!-- Libreria de slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -75,78 +79,78 @@
         <!--CUERPO-->
         <div id="main">
 
-            <!--ÚLTIMAS NOTICIAS-->
-            <div id="ultimasNoticias">
+            <!--NOTICIAS DE HOY-->
+            <div id="noticiasDeHoy">
 
                 <!--TÍTULO-->
                 <div class="titulo">
 
-                    <h1>ÚLTIMAS NOTICIAS</h1>
+                    <h1>NOTICIAS DE HOY</h1>
 
                 </div>
 
                 <!--NOTICIA 1 (superior-izquierda)-->
-                <div id="noticia1_ultimasNoticias">
+                <div id="noticia1_noticiasDeHoy">
 
-                    <img src="Imagenes/noticias/ultimasNoticias/1.jpg " alt="" class="imagenLateral_ultimasNoticias">
+                    <img src="Imagenes/noticias/noticiasDeHoy/1.jpg " alt="" class="imagenLateral_noticiasDeHoy">
 
                     <a href="" class="categoria">OJOS</a>
 
                     <br><br>
                     
-                    <a href="" class="enlacePrincipal_ultimasNoticias">Zöe Kravitz y el 'eyeliner' tendencia para primavera con el que ser toda una 'Catwoman'</a>
+                    <a href="" class="enlacePrincipal_noticiasDeHoy">Zöe Kravitz y el 'eyeliner' tendencia para primavera con el que ser toda una 'Catwoman'</a>
 
                 </div>
 
                 <!--NOTICIA 2 (central)-->
-                <div id="noticia2_ultimasNoticias">
+                <div id="noticia2_noticiasDeHoy">
 
-                    <img src="Imagenes/noticias/ultimasNoticias/2.PNG" alt="" id="imagenCentral_ultimasNoticias">
+                    <img src="Imagenes/noticias/noticiasDeHoy/2.PNG" alt="" id="imagenCentral_noticiasDeHoy">
 
                     <a href="" class="categoria">ROSTRO</a>
 
                     <br><br>
 
-                    <a href="" class="enlacePrincipal_ultimasNoticias">Premios Goya 2022: los maquilladores nos cuentan 9 trucos infalibles para la alfombra roja</a>
+                    <a href="" class="enlacePrincipal_noticiasDeHoy">Premios Goya 2022: los maquilladores nos cuentan 9 trucos infalibles para la alfombra roja</a>
 
                 </div>
 
                 <!--NOTICIA 3 (superior-derecha)-->
-                <div id="noticia3_ultimasNoticias">
+                <div id="noticia3_noticiasDeHoy">
 
-                    <img src="Imagenes/noticias/ultimasNoticias/3.PNG" alt="" class="imagenLateral_ultimasNoticias">
+                    <img src="Imagenes/noticias/noticiasDeHoy/3.PNG" alt="" class="imagenLateral_noticiasDeHoy">
                 
                     <a href="" class="categoria">ROSTRO</a>
 
                     <br><br>
 
-                    <a href="" class="enlacePrincipal_ultimasNoticias">Kiko Milano saca su lado más dulce con una nueva apuesta inspirada en el chocolate</a>
+                    <a href="" class="enlacePrincipal_noticiasDeHoy">Kiko Milano saca su lado más dulce con una nueva apuesta inspirada en el chocolate</a>
 
                 </div>
 
                 <!--NOTICIA 4 (inferior-izquierda)-->
-                <div id="noticia4_ultimasNoticias">
+                <div id="noticia4_noticiasDeHoy">
 
-                    <img src="Imagenes/noticias/ultimasNoticias/4.png" alt="" class="imagenLateral_ultimasNoticias">
+                    <img src="Imagenes/noticias/noticiasDeHoy/4.PNG" alt="" class="imagenLateral_noticiasDeHoy">
 
                     <a href="" class="categoria">LABIOS</a>
 
                     <br><br>
 
-                    <a href="" class="enlacePrincipal_ultimasNoticias">El secreto de belleza de Marilyn Monroe</a>
+                    <a href="" class="enlacePrincipal_noticiasDeHoy">El secreto de belleza de Marilyn Monroe</a>
 
                 </div>
 
                 <!--NOTICIA 5 (inferior-derecha)-->
-                <div id="noticia5_ultimasNoticias">
+                <div id="noticia5_noticiasDeHoy">
 
-                    <img src="Imagenes/noticias/ultimasNoticias/5.PNG" alt="" class="imagenLateral_ultimasNoticias">
+                    <img src="Imagenes/noticias/noticiasDeHoy/5.PNG" alt="" class="imagenLateral_noticiasDeHoy">
 
                     <a href="" class="categoria">ROSTRO</a>
 
                     <br><br>
 
-                    <a href="" class="enlacePrincipal_ultimasNoticias">Un maestro de la naturalidad</a>
+                    <a href="" class="enlacePrincipal_noticiasDeHoy">Un maestro de la naturalidad</a>
 
                 </div>
 
@@ -368,17 +372,670 @@
 
                     <h1>CONSEJOS PARA EL CUIDADO DE LA PIEL</h1>
 
-                    <a href="" class="categoria">ROSTRO</a>
+                </div>
 
-                    <br><br>
+                <div class="slider_contenedor js-flickity" data-flickity-options='{ "wrapAround": false }'>
 
-                    <a href="" class="enlacePrincipal_cuidadoPiel"></a>
+                    <div class="noticia_cuidadoPiel slider_item">
+
+                        <img src="Imagenes/noticias/cuidadoPiel/1.PNG" alt="" class="slider_imagen">
+    
+                        <a href="" class="categoria">ROSTRO</a>
+    
+                        <br><br>
+                        
+                        <a href="" class="slider_enlace">Así es No.1 de Chanel, la nueva línea de belleza de la firma para empezar el año con una piel radiante </a>
+    
+                    </div>
+    
+                    <div class="noticia_cuidadoPiel slider_item">
+    
+                        <img src="Imagenes/noticias/cuidadoPiel/2.PNG" alt="" class="slider_imagen">
+                        
+                        <a href="" class="categoria">ROSTRO</a>
+
+                        <br><br>
+    
+                        <a href="" class="slider_enlace">Los seis cosméticos con vitamina C que siempre recomiendan las farmacéuticas
+                        </a>
+    
+                    </div>
+    
+                    <div class="noticia_cuidadoPiel slider_item">
+    
+                        <img src="Imagenes/noticias/cuidadoPiel/3.PNG" alt="" class="slider_imagen">
+
+                        <a href="" class="categoria">ROSTRO</a>
+    
+                        <br><br>
+    
+                        <a href="" class="slider_enlace">15 cosméticos con aceite de coco para hidratar (o limpiar) la piel y el cabello</a>
+    
+                    </div>
+    
+                    <div class="noticia_cuidadoPiel slider_item">
+    
+                        <img src="Imagenes/noticias/cuidadoPiel/4.PNG" alt="" class="slider_imagen">
+
+                        <a href="" class="categoria">ROSTRO</a>
+    
+                        <br><br>
+    
+                        <a href="" class="slider_enlace">Sostenibles, cómodos y bonitos: el presente y futuro de la limpieza facial son los discos desmaquillantes reutilizables
+                        </a>
+    
+                    </div>
+    
+                    <div class="noticia_cuidadoPiel slider_item">
+    
+                        <img src="Imagenes/noticias/cuidadoPiel/5.PNG" alt="" class="slider_imagen">
+
+                        <a href="" class="categoria">ROSTRO</a>
+    
+                        <br><br>
+    
+                        <a href="" class="slider_enlace">El mejor limpiador de la historia</a>
+    
+                    </div>
+    
+                    <div class="noticia_cuidadoPiel slider_item">
+    
+                        <img src="Imagenes/noticias/cuidadoPiel/6.PNG" alt="" class="slider_imagen">
+
+                        <a href="" class="categoria">ROSTRO</a>
+    
+                        <br><br>
+    
+                        <a href="" class="slider_enlace">Por qué las ceramidas son el ingrediente clave e imprescindible en tu rutina de belleza</a>
+    
+                    </div>
+    
+                    <div class="noticia_cuidadoPiel slider_item">
+    
+                        <img src="Imagenes/noticias/cuidadoPiel/7.PNG" alt="" class="slider_imagen">
+
+                        <a href="" class="categoria">ROSTRO</a>
+    
+                        <br><br>
+    
+                        <a href="" class="slider_enlace">Queratosis folicular: cómo tratarla</a>
+    
+                    </div>
 
                 </div>
 
-                <div id="noticia1_cuidadoPiel">
+            </div>
 
-                    <img src="" alt="" class="imagen_cuidadoPiel">
+            <!--ÚLTIMOS VÍDEOS-->
+
+            <div id="ultimosVideos">
+
+                <div class="titulo">
+
+                    <h1>ÚLTIMOS VÍDEOS</h1>
+
+                </div>
+
+                <div class="slider_contenedor js-flickity" data-flickity-options='{ "wrapAround": false }'>
+
+                    <div class="slider_item">
+
+                        <video preload="auto" controls poster="Imagenes/noticias/Miniaturas/1.PNG" class="slider_imagen">
+
+                            <source src="Videos/1.mp4" type="video/mp4">
+
+                        </video>
+
+                        <a href="" class="categoria">L'ORÉAL PARIS</a>
+
+                        <br><br>
+
+                        <a href="" class="slider_enlace">Camila Cabello: “La negatividad no lo vale. Pero tú sí. Tú lo vales” - Lecciones de valor</a>
+
+                    </div>
+
+                    <div class="slider_item">
+
+                        <video preload="auto" controls poster="Imagenes/noticias/Miniaturas/2.PNG" class="slider_imagen">
+
+                            <source src="Videos/2.mp4" type="video/mp4">
+
+                        </video>
+
+                        <a href="" class="categoria">SHISEIDO</a>
+
+                        <br><br>
+
+                        <a href="" class="slider_enlace">Colección de Brochas de Shiseido</a>
+
+                    </div>
+
+                    <div class="slider_item">
+
+                        <video preload="auto" controls poster="Imagenes/noticias/Miniaturas/3.PNG" class="slider_imagen">
+
+                            <source src="Videos/3.mp4" type="video/mp4">
+
+                        </video>
+
+                        <a href="" class="categoria">MAC</a>
+
+                        <br><br>
+
+                        <a href="" class="slider_enlace">Aute Couture Starring Rosalía - MAC Cosmetics</a>
+
+                    </div>
+
+                    <div class="slider_item">
+
+                        <video preload="auto" controls poster="Imagenes/noticias/Miniaturas/4.PNG" class="slider_imagen">
+
+                            <source src="Videos/4.mp4" type="video/mp4">
+
+                        </video>
+
+                        <a href="" class="categoria">REVLON</a>
+
+                        <br><br>
+
+                        <a href="" class="slider_enlace">Revlon ¡Vive intensamente!</a>
+
+                    </div>
+
+                    <div class="slider_item">
+
+                        <video preload="auto" controls poster="Imagenes/noticias/Miniaturas/5.PNG" class="slider_imagen">
+
+                            <source src="Videos/5.mp4" type="video/mp4">
+
+                        </video>
+
+                        <a href="" class="categoria">MAYBELLINE</a>
+
+                        <br><br>
+
+                        <a href="" class="slider_enlace">Solo red: maquillaje en rojos por Maybelline New York</a>
+
+                    </div>
+
+                    <div class="slider_item">
+
+                        <video preload="auto" controls poster="Imagenes/noticias/Miniaturas/6.PNG" class="slider_imagen">
+
+                            <source src="Videos/6.mp4" type="video/mp4">
+
+                        </video>
+
+                        <a href="" class="categoria">RIMMEL LONDON</a>
+
+                        <br><br>
+
+                        <a href="" class="slider_enlace">#VolumeOnDemand- Nueva máscara de pestañas</a>
+
+                    </div>
+
+                    <div class="slider_item">
+
+                        <video preload="auto" controls poster="Imagenes/noticias/Miniaturas/7.PNG" class="slider_imagen">
+
+                            <source src="Videos/7.mp4" type="video/mp4">
+
+                        </video>
+
+                        <a href="" class="categoria">NYX</a>
+
+                        <br><br>
+
+                        <a href=""class="slider_enlace">Dibuja una mirada épica con Epic Wear Liquid eyeliner de NYX Professional Makeup
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--ULTIMAS NOTICIAS-->
+            <div id="ultimasNoticias">
+
+                <!--TÍTULO-->
+                <div class="titulo">
+
+                    <h1>ÚLTIMAS NOTICIAS</h1>
+
+                </div>
+
+                <!--NOTICIA 1 (fila 1 - columna 1)-->
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
+
+                </div>
+
+                <div id="noticia1_ultimasNoticias">
+
+                    <img src="Imagenes/noticias/ultimasNoticias/1.PNG" alt="" class="imagen_ultimasNoticias">
+
+                    <a href="" class="categoria">LABIOS</a>
+
+                    <br><br>
+
+                    <a href="" class="enlacePrincipal_ultimasNoticias">¡Vuelve el amor por el pintalabios marrón!</a>
 
                 </div>
 
